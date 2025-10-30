@@ -1,5 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "title": "TextmatColors",
+  "properties": {
+    "textmateColors": {
+      "$ref": "#/$defs/TextmateColors"
+    }
+  },
   "$defs": {
     "_1": {
       "enum": [
