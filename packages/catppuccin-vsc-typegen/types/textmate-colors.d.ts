@@ -5,6 +5,6 @@
  * Instead, run `pnpm --filter @catppuccin/vsc-typegen typegen:update` to regenerate this file.
  */
 
-export interface TextmateColorsSchema {
+export interface TextmateColors {
   [k: string]: unknown;
 }
