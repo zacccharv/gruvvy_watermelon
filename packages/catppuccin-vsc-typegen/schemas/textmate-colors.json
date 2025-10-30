@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Textmate Colors Schema",
   "$defs": {
     "_1": {
       "enum": [
@@ -109,6 +110,16 @@
       "type": "array",
       "items": {
         "type": "object",
+        "defaultSnippets": [
+          {
+            "body": {
+              "scope": "${1:keyword.operator}",
+              "settings": {
+                "foreground": "${2:#FF0000}"
+              }
+            }
+          }
+        ],
         "properties": {
           "name": {
             "type": "string"
@@ -138,7 +149,9 @@
           "settings": {
             "$ref": "#/$defs/Settings"
           }
-        }
+        },
+        "required": ["settings"],
+        "additionalProperties": false
       }
     },
     "Settings": {
