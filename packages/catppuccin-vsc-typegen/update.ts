@@ -7,6 +7,9 @@ import { compile, JSONSchema } from "json-schema-to-typescript";
 const vscodeSchemasRoot =
   "https://raw.githubusercontent.com/ota-meshi/extract-vscode-schemas/main/resources/vscode/schemas/";
 
+const externRoot =
+  "https://raw.githubusercontent.com/zacccharv/gruvvy_watermelon/refs/heads/main/packages/catppuccin-vsc-typegen/schemas/";
+
 const bannerComment = `/**
  * This file was automatically generated.
  * DO NOT MODIFY IT BY HAND
@@ -34,7 +37,7 @@ const mappings = [
   //   kind: "jsonschema",
   // },
   {
-    schema: __dirname + "schemas/textmate-colors.json",
+    schema: externRoot + "textmate-colors.json",
     name: "TextmateColors",
     fname: "textmate-colors.d.ts",
     kind: "jsonschema",

@@ -1,6 +1,6 @@
 {
   "type": "array",
-  "definitions": {
+  "stuff": {
     "colorGroup": {
       "default": "#FF0000",
       "anyOf": [
@@ -145,7 +145,7 @@
   },
   "$defs": {
     "_0": {
-      "$ref": "#/definitions/settings"
+      "$ref": "#/stuff/settings"
     },
     "_1": {
       "enum": [
