@@ -1,11 +1,52 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "title": "TextmatColors",
-  "properties": {
-    "textmateColors": {
-      "$ref": "#/$defs/TextmateColors"
-    }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "defaultSnippets": [
+      {
+        "body": {
+          "scope": "${1:keyword.operator}",
+          "settings": {
+            "foreground": "${2:#FF0000}"
+          }
+        }
+      }
+    ],
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Description of the rule."
+      },
+      "scope": {
+        "description": "Scope selector against which this rule matches.",
+        "anyOf": [
+          {
+            "$ref": "#/$defs/_1"
+          },
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/_1"
+            }
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ]
+      },
+      "settings": {
+        "$ref": "#/$defs/_0"
+      }
+    },
+    "required": ["settings"],
+    "additionalProperties": false
   },
   "$defs": {
     "_1": {
@@ -150,21 +191,85 @@
     },
     "Settings": {
       "type": "object",
+      "description": "Colors and styles for the token.",
       "properties": {
+        "foreground": {
+          "type": "string",
+          "description": "Foreground color for the token.",
+          "format": "color-hex",
+          "default": "#ff0000"
+        },
         "background": {
           "type": "string",
-          "format": "color-hex"
+          "deprecationMessage": "Token background colors are currently not supported."
         },
         "fontStyle": {
           "type": "string",
+          "description": "Font style of the rule: 'italic', 'bold', 'underline', 'strikethrough' or a combination. The empty string unsets inherited settings.",
           "pattern": "^(\\s*\\b(italic|bold|underline|strikethrough))*\\s*$",
-          "patternErrorMessage": "Font style must be 'italic', 'bold', 'underline', 'strikethrough' or a combination or the empty string."
-        },
-        "foreground": {
-          "type": "string",
-          "format": "color-hex"
+          "patternErrorMessage": "Font style must be 'italic', 'bold', 'underline', 'strikethrough' or a combination or the empty string.",
+          "defaultSnippets": [
+            {
+              "label": "None (clear inherited style)",
+              "bodyText": "\"\""
+            },
+            {
+              "body": "italic"
+            },
+            {
+              "body": "bold"
+            },
+            {
+              "body": "underline"
+            },
+            {
+              "body": "strikethrough"
+            },
+            {
+              "body": "italic bold"
+            },
+            {
+              "body": "italic underline"
+            },
+            {
+              "body": "italic strikethrough"
+            },
+            {
+              "body": "bold underline"
+            },
+            {
+              "body": "bold strikethrough"
+            },
+            {
+              "body": "underline strikethrough"
+            },
+            {
+              "body": "italic bold underline"
+            },
+            {
+              "body": "italic bold strikethrough"
+            },
+            {
+              "body": "italic underline strikethrough"
+            },
+            {
+              "body": "bold underline strikethrough"
+            },
+            {
+              "body": "italic bold underline strikethrough"
+            }
+          ]
         }
-      }
+      },
+      "additionalProperties": false,
+      "defaultSnippets": [
+        {
+          "body": {
+            "foreground": "${1:#FF0000}",
+            "fontStyle": "${2:bold}"
+          }
+        }
+      ]
     }
   }
 }
