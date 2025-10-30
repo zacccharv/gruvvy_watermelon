@@ -109,16 +109,6 @@
       "type": "array",
       "items": {
         "type": "object",
-        "defaultSnippets": [
-          {
-            "body": {
-              "scope": "${1:keyword.operator}",
-              "settings": {
-                "foreground": "${2:#FF0000}"
-              }
-            }
-          }
-        ],
         "properties": {
           "name": {
             "type": "string"
