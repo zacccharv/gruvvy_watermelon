@@ -1,3 +1,10 @@
+/**
+ * This file was automatically generated.
+ * DO NOT MODIFY IT BY HAND
+ * OH YES IT WAS!.
+ * Instead, run `pnpm --filter @catppuccin/vsc-typegen typegen:update` to regenerate this file.
+ */
+
 export type _1 =
   | "comment"
   | "comment.block"
@@ -107,7 +114,7 @@ export type TextmateColors = {
   /**
    * Scope selector against which this rule matches.
    */
-  scope?: _1 | _1[] | string[] | string;
+  scope?: _1 | string | _1[] | string[];
   settings: Settings;
 }[];
 
@@ -115,13 +122,13 @@ export type TextmateColors = {
  * Colors and styles for the token.
  */
 export interface Settings {
+  /**
+   * Foreground color for the token.
+   */
+  foreground?: string;
   background?: string;
   /**
    * Font style of the rule: 'italic', 'bold', 'underline', 'strikethrough' or a combination. The empty string unsets inherited settings.
    */
   fontStyle?: string;
-  /**
-   * Foreground color for the token.
-   */
-  foreground?: string;
 }
