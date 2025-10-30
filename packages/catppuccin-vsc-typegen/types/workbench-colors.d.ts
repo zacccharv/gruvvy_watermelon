@@ -1,6 +1,7 @@
 /**
  * This file was automatically generated.
- * DO NOT MODIFY IT BY HAND.
+ * DO NOT MODIFY IT BY HAND
+ * OH YES IT WAS!.
  * Instead, run `pnpm --filter @catppuccin/vsc-typegen typegen:update` to regenerate this file.
  */
 
@@ -10,104 +11,107 @@
 export type _1 = "default";
 export type _6 = string;
 export type _5 = string;
-export type _37 = string;
+export type _36 = string;
 export type _9 = string;
-export type _81 = string;
+export type _83 = string;
 export type _27 = string;
-export type _82 = string;
+export type _84 = string;
 export type _14 = string;
 export type _12 = string;
 export type _13 = string;
 export type _10 = string;
 export type _11 = string;
-export type _56 = string;
+export type _54 = string;
 export type _24 = string;
-export type _41 = string;
+export type _40 = string;
 export type _19 = string;
 export type _21 = string;
-export type _54 = string;
-export type _39 = string;
+export type _53 = string;
+export type _38 = string;
 export type _0 = string;
 export type _8 = string;
-export type _53 = string;
+export type _52 = string;
 export type _17 = string;
 export type _18 = string;
-export type _44 = string;
+export type _43 = string;
 export type _2 = string;
-export type _45 = string;
-export type _85 = string;
-export type _63 = string;
-export type _36 = string;
+export type _44 = string;
+export type _59 = string;
+export type _93 = string;
+export type _92 = string;
+export type _68 = string;
+export type _76 = string;
+export type _48 = string;
+export type _35 = string;
 export type _4 = string;
 export type _3 = string;
 export type _32 = string;
-export type _90 = string;
+export type _94 = string;
 export type _33 = string;
-export type _95 = string;
+export type _98 = string;
 /**
  * Debug toolbar icon for step over.
  */
-export type _96 = _33 | _1;
+export type _99 = _33 | _1;
 export type _25 = string;
-export type _84 = string;
+export type _89 = string;
 export type _34 = string;
-export type _35 = string;
 export type _28 = string;
 export type _23 = string;
-export type _76 = string;
+export type _77 = string;
 export type _74 = string;
-export type _67 = string;
+export type _64 = string;
 export type _26 = string;
 export type _75 = string;
-export type _59 = string;
-export type _65 = string;
-export type _86 = string;
-export type _69 = string;
-export type _64 = string;
-export type _78 = string;
-export type _79 = string;
-export type _87 = string;
 export type _57 = string;
+export type _88 = string;
+export type _66 = string;
+export type _62 = string;
+export type _79 = string;
+export type _80 = string;
+export type _85 = string;
+export type _55 = string;
+export type _82 = string;
 export type _22 = string;
-export type _58 = string;
+export type _56 = string;
 export type _29 = string;
 export type _31 = string;
 export type _30 = string;
 export type _72 = string;
 export type _73 = string;
-export type _83 = string;
-export type _66 = string;
-export type _43 = string;
+export type _90 = string;
+export type _63 = string;
 export type _42 = string;
+export type _41 = string;
 export type _20 = string;
-export type _7 = string;
-export type _50 = string;
-export type _52 = string;
-export type _51 = string;
-export type _88 = string;
-export type _89 = string;
-export type _60 = string;
 export type _91 = string;
-export type _38 = string;
+export type _7 = string;
+export type _51 = string;
 export type _49 = string;
+export type _50 = string;
+export type _86 = string;
+export type _87 = string;
+export type _58 = string;
+export type _95 = string;
+export type _37 = string;
 export type _71 = string;
-export type _48 = string;
-export type _46 = string;
+export type _70 = string;
+export type _69 = string;
 export type _47 = string;
-export type _61 = string;
-export type _40 = string;
-export type _92 = string;
+export type _45 = string;
+export type _46 = string;
+export type _60 = string;
+export type _39 = string;
 export type _15 = string;
 export type _16 = string;
-export type _70 = string;
-export type _62 = string;
-export type _55 = string;
-export type _80 = string;
-export type _68 = string;
-export type _77 = string;
+export type _67 = string;
+export type _61 = string;
+export type _81 = string;
+export type _65 = string;
+export type _78 = string;
+export type _100 = string;
+export type _96 = string;
 export type _97 = string;
-export type _93 = string;
-export type _94 = string;
 
 export interface WorkbenchColors {
   /**
@@ -129,7 +133,7 @@ export interface WorkbenchColors {
   /**
    * Activity bar background color. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
    */
-  "activityBar.background"?: _1 | _37;
+  "activityBar.background"?: _1 | _36;
   /**
    * Activity bar border color separating to the side bar. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
    */
@@ -137,11 +141,11 @@ export interface WorkbenchColors {
   /**
    * Drag and drop feedback color for the activity bar items. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
    */
-  "activityBar.dropBorder"?: _1 | _81;
+  "activityBar.dropBorder"?: _1 | _83;
   /**
    * Activity bar item foreground color when it is active. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
    */
-  "activityBar.foreground"?: _1 | _81;
+  "activityBar.foreground"?: _1 | _83;
   /**
    * Activity bar item foreground color when it is inactive. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
    */
@@ -161,7 +165,7 @@ export interface WorkbenchColors {
   /**
    * Focus border color for the active item in the Activity bar when it is on top / bottom. The activity allows to switch between views of the side bar.
    */
-  "activityBarTop.activeBorder"?: _1 | _82;
+  "activityBarTop.activeBorder"?: _1 | _84;
   /**
    * Background color of the activity bar when set to top / bottom.
    */
@@ -169,11 +173,11 @@ export interface WorkbenchColors {
   /**
    * Drag and drop feedback color for the items in the Activity bar when it is on top / bottom. The activity allows to switch between views of the side bar.
    */
-  "activityBarTop.dropBorder"?: _1 | _82;
+  "activityBarTop.dropBorder"?: _1 | _84;
   /**
    * Active foreground color of the item in the Activity bar when it is on top / bottom. The activity allows to switch between views of the side bar.
    */
-  "activityBarTop.foreground"?: _1 | _82;
+  "activityBarTop.foreground"?: _1 | _84;
   /**
    * Inactive foreground color of the item in the Activity bar when it is on top / bottom. The activity allows to switch between views of the side bar.
    */
@@ -205,7 +209,7 @@ export interface WorkbenchColors {
   /**
    * Banner background color. The banner is shown under the title bar of the window.
    */
-  "banner.background"?: _1 | _56;
+  "banner.background"?: _1 | _54;
   /**
    * Banner foreground color. The banner is shown under the title bar of the window.
    */
@@ -217,7 +221,7 @@ export interface WorkbenchColors {
   /**
    * Color of selected breadcrumb items.
    */
-  "breadcrumb.activeSelectionForeground"?: _1 | _41;
+  "breadcrumb.activeSelectionForeground"?: _1 | _40;
   /**
    * Background color of breadcrumb items.
    */
@@ -225,7 +229,7 @@ export interface WorkbenchColors {
   /**
    * Color of focused breadcrumb items.
    */
-  "breadcrumb.focusForeground"?: _1 | _41;
+  "breadcrumb.focusForeground"?: _1 | _40;
   /**
    * Color of focused breadcrumb items.
    */
@@ -249,11 +253,11 @@ export interface WorkbenchColors {
   /**
    * Button background color when hovering.
    */
-  "button.hoverBackground"?: _1 | _54;
+  "button.hoverBackground"?: _1 | _53;
   /**
    * Secondary button background color.
    */
-  "button.secondaryBackground"?: _1 | _39;
+  "button.secondaryBackground"?: _1 | _38;
   /**
    * Secondary button foreground color.
    */
@@ -265,7 +269,7 @@ export interface WorkbenchColors {
   /**
    * Button separator color.
    */
-  "button.separator"?: _1 | _53;
+  "button.separator"?: _1 | _52;
   /**
    * Axis color for the chart.
    */
@@ -289,7 +293,7 @@ export interface WorkbenchColors {
   /**
    * The green color used in chart visualizations.
    */
-  "charts.green"?: _1 | _44;
+  "charts.green"?: _1 | _43;
   /**
    * The color used for horizontal lines in charts.
    */
@@ -301,7 +305,7 @@ export interface WorkbenchColors {
   /**
    * The purple color used in chart visualizations.
    */
-  "charts.purple"?: _1 | _45;
+  "charts.purple"?: _1 | _44;
   /**
    * The red color used in chart visualizations.
    */
@@ -319,9 +323,21 @@ export interface WorkbenchColors {
    */
   "chat.avatarForeground"?: _0 | _1;
   /**
+   * Chat checkpoint separator color.
+   */
+  "chat.checkpointSeparator"?: _1 | _59;
+  /**
    * The foreground color of a chat edited file in the edited file list.
    */
-  "chat.editedFileForeground"?: _1 | _85;
+  "chat.editedFileForeground"?: _1 | _93;
+  /**
+   * Foreground color of lines added in chat code block pill.
+   */
+  "chat.linesAddedForeground"?: _1 | string;
+  /**
+   * Foreground color of lines removed in chat code block pill.
+   */
+  "chat.linesRemovedForeground"?: _1 | string;
   /**
    * The background color of a chat request.
    */
@@ -329,7 +345,19 @@ export interface WorkbenchColors {
   /**
    * The border color of a chat request.
    */
-  "chat.requestBorder"?: _1 | _63;
+  "chat.requestBorder"?: _1 | _92;
+  /**
+   * Background color of the chat request bubble.
+   */
+  "chat.requestBubbleBackground"?: _1 | _68;
+  /**
+   * Background color of the chat request bubble on hover.
+   */
+  "chat.requestBubbleHoverBackground"?: _1 | string;
+  /**
+   * Border color of code blocks within the chat request bubble.
+   */
+  "chat.requestCodeBorder"?: _1 | _76;
   /**
    * The background color of a chat slash command.
    */
@@ -341,11 +369,19 @@ export interface WorkbenchColors {
   /**
    * Background color of checkbox widget.
    */
-  "checkbox.background"?: _1 | _39;
+  "checkbox.background"?: _1 | _38;
   /**
    * Border color of checkbox widget.
    */
   "checkbox.border"?: _1 | _8;
+  /**
+   * Background of a disabled checkbox.
+   */
+  "checkbox.disabled.background"?: _1 | string;
+  /**
+   * Foreground of a disabled checkbox.
+   */
+  "checkbox.disabled.foreground"?: _1 | _48;
   /**
    * Foreground color of checkbox widget.
    */
@@ -377,7 +413,7 @@ export interface WorkbenchColors {
   /**
    * Border color of the command center
    */
-  "commandCenter.border"?: _1 | _36;
+  "commandCenter.border"?: _1 | _35;
   /**
    * Command center background color when a program is being debugged
    */
@@ -445,7 +481,7 @@ export interface WorkbenchColors {
   /**
    * Icon color for disabled breakpoints.
    */
-  "debugIcon.breakpointDisabledForeground"?: _1 | _90;
+  "debugIcon.breakpointDisabledForeground"?: _1 | _94;
   /**
    * Icon color for breakpoints.
    */
@@ -453,11 +489,11 @@ export interface WorkbenchColors {
   /**
    * Icon color for all breakpoint stack frames.
    */
-  "debugIcon.breakpointStackframeForeground"?: _1 | _44;
+  "debugIcon.breakpointStackframeForeground"?: _1 | _43;
   /**
    * Icon color for unverified breakpoints.
    */
-  "debugIcon.breakpointUnverifiedForeground"?: _1 | _90;
+  "debugIcon.breakpointUnverifiedForeground"?: _1 | _94;
   /**
    * Debug toolbar icon for continue.
    */
@@ -465,7 +501,7 @@ export interface WorkbenchColors {
   /**
    * Debug toolbar icon for disconnect.
    */
-  "debugIcon.disconnectForeground"?: _1 | _95;
+  "debugIcon.disconnectForeground"?: _1 | _98;
   /**
    * Debug toolbar icon for pause.
    */
@@ -473,11 +509,11 @@ export interface WorkbenchColors {
   /**
    * Debug toolbar icon for restart.
    */
-  "debugIcon.restartForeground"?: _1 | _44;
+  "debugIcon.restartForeground"?: _1 | _43;
   /**
    * Debug toolbar icon for start debugging.
    */
-  "debugIcon.startForeground"?: _1 | _44;
+  "debugIcon.startForeground"?: _1 | _43;
   /**
    * Debug toolbar icon for step back.
    */
@@ -486,12 +522,12 @@ export interface WorkbenchColors {
    * Debug toolbar icon for step into.
    */
   "debugIcon.stepIntoForeground"?: _1 | _33;
-  "debugIcon.stepOutForeground"?: _96;
-  "debugIcon.stepOverForeground"?: _96;
+  "debugIcon.stepOutForeground"?: _99;
+  "debugIcon.stepOverForeground"?: _99;
   /**
    * Debug toolbar icon for stop.
    */
-  "debugIcon.stopForeground"?: _1 | _95;
+  "debugIcon.stopForeground"?: _1 | _98;
   /**
    * Foreground color for booleans in the debug views (ie. the Variables or Watch view).
    */
@@ -499,7 +535,7 @@ export interface WorkbenchColors {
   /**
    * Foreground color for expression errors in the debug views (ie. the Variables or Watch view) and for error logs shown in the debug console.
    */
-  "debugTokenExpression.error"?: _1 | _95;
+  "debugTokenExpression.error"?: _1 | _98;
   /**
    * Foreground color for the token names shown in the debug views (ie. the Variables or Watch view).
    */
@@ -519,11 +555,11 @@ export interface WorkbenchColors {
   /**
    * Foreground color for the token values shown in the debug views (ie. the Variables or Watch view).
    */
-  "debugTokenExpression.value"?: _1 | _84;
+  "debugTokenExpression.value"?: _1 | _89;
   /**
    * Debug toolbar background color.
    */
-  "debugToolBar.background"?: _1 | _37;
+  "debugToolBar.background"?: _1 | _36;
   /**
    * Debug toolbar border color.
    */
@@ -559,7 +595,7 @@ export interface WorkbenchColors {
   /**
    * Color of the diff editor's diagonal fill. The diagonal fill is used in side-by-side diff views.
    */
-  "diffEditor.diagonalFill"?: _1 | _36;
+  "diffEditor.diagonalFill"?: _1 | _35;
   /**
    * Background color for lines that got inserted. The color must not be opaque so as not to hide underlying decorations.
    */
@@ -567,7 +603,7 @@ export interface WorkbenchColors {
   /**
    * Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
    */
-  "diffEditor.insertedTextBackground"?: _1 | _34;
+  "diffEditor.insertedTextBackground"?: _1 | string;
   /**
    * Outline color for the text that got inserted.
    */
@@ -583,11 +619,11 @@ export interface WorkbenchColors {
   /**
    * Background color for lines that got removed. The color must not be opaque so as not to hide underlying decorations.
    */
-  "diffEditor.removedLineBackground"?: _1 | _35;
+  "diffEditor.removedLineBackground"?: _1 | _34;
   /**
    * Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
    */
-  "diffEditor.removedTextBackground"?: _1 | _35;
+  "diffEditor.removedTextBackground"?: _1 | _34;
   /**
    * Outline color for text that got removed.
    */
@@ -599,7 +635,7 @@ export interface WorkbenchColors {
   /**
    * The background color of unchanged blocks in the diff editor.
    */
-  "diffEditor.unchangedRegionBackground"?: _1 | _37;
+  "diffEditor.unchangedRegionBackground"?: _1 | _36;
   /**
    * The foreground color of unchanged blocks in the diff editor.
    */
@@ -631,7 +667,7 @@ export interface WorkbenchColors {
   /**
    * Dropdown background.
    */
-  "dropdown.background"?: _1 | _39;
+  "dropdown.background"?: _1 | _38;
   /**
    * Dropdown border.
    */
@@ -691,7 +727,7 @@ export interface WorkbenchColors {
   /**
    * Background color behind folded ranges. The color must not be opaque so as not to hide underlying decorations.
    */
-  "editor.foldBackground"?: _1 | string;
+  "editor.foldBackground"?: _1 | _68;
   /**
    * Color of the collapsed text after the first line of a folded range.
    */
@@ -715,7 +751,7 @@ export interface WorkbenchColors {
   /**
    * Color for the debug inline value text.
    */
-  "editor.inlineValuesForeground"?: _1 | _76;
+  "editor.inlineValuesForeground"?: _1 | _77;
   /**
    * Background color for the highlight of line at the cursor position.
    */
@@ -731,7 +767,7 @@ export interface WorkbenchColors {
   /**
    * Foreground color of the placeholder text in the editor.
    */
-  "editor.placeholder.foreground"?: _1 | _67;
+  "editor.placeholder.foreground"?: _1 | _64;
   /**
    * Background color of highlighted ranges, like by quick open and find features. The color must not be opaque so as not to hide underlying decorations.
    */
@@ -795,7 +831,7 @@ export interface WorkbenchColors {
   /**
    * Background color of a symbol during write-access, like writing to a variable. The color must not be opaque so as not to hide underlying decorations.
    */
-  "editor.wordHighlightStrongBackground"?: _1 | string;
+  "editor.wordHighlightStrongBackground"?: _1 | _76;
   /**
    * Border color of a symbol during write-access, like writing to a variable.
    */
@@ -815,7 +851,7 @@ export interface WorkbenchColors {
   /**
    * Action List background color for the focused item.
    */
-  "editorActionList.focusBackground"?: _1 | _56;
+  "editorActionList.focusBackground"?: _1 | _54;
   /**
    * Action List foreground color for the focused item.
    */
@@ -843,15 +879,15 @@ export interface WorkbenchColors {
   /**
    * Foreground color of brackets (4). Requires enabling bracket pair colorization.
    */
-  "editorBracketHighlight.foreground4"?: _1 | _59;
+  "editorBracketHighlight.foreground4"?: _1 | _57;
   /**
    * Foreground color of brackets (5). Requires enabling bracket pair colorization.
    */
-  "editorBracketHighlight.foreground5"?: _1 | _59;
+  "editorBracketHighlight.foreground5"?: _1 | _57;
   /**
    * Foreground color of brackets (6). Requires enabling bracket pair colorization.
    */
-  "editorBracketHighlight.foreground6"?: _1 | _59;
+  "editorBracketHighlight.foreground6"?: _1 | _57;
   /**
    * Foreground color of unexpected brackets.
    */
@@ -867,67 +903,67 @@ export interface WorkbenchColors {
   /**
    * Background color of active bracket pair guides (1). Requires enabling bracket pair guides.
    */
-  "editorBracketPairGuide.activeBackground1"?: _1 | _59;
+  "editorBracketPairGuide.activeBackground1"?: _1 | _57;
   /**
    * Background color of active bracket pair guides (2). Requires enabling bracket pair guides.
    */
-  "editorBracketPairGuide.activeBackground2"?: _1 | _59;
+  "editorBracketPairGuide.activeBackground2"?: _1 | _57;
   /**
    * Background color of active bracket pair guides (3). Requires enabling bracket pair guides.
    */
-  "editorBracketPairGuide.activeBackground3"?: _1 | _59;
+  "editorBracketPairGuide.activeBackground3"?: _1 | _57;
   /**
    * Background color of active bracket pair guides (4). Requires enabling bracket pair guides.
    */
-  "editorBracketPairGuide.activeBackground4"?: _1 | _59;
+  "editorBracketPairGuide.activeBackground4"?: _1 | _57;
   /**
    * Background color of active bracket pair guides (5). Requires enabling bracket pair guides.
    */
-  "editorBracketPairGuide.activeBackground5"?: _1 | _59;
+  "editorBracketPairGuide.activeBackground5"?: _1 | _57;
   /**
    * Background color of active bracket pair guides (6). Requires enabling bracket pair guides.
    */
-  "editorBracketPairGuide.activeBackground6"?: _1 | _59;
+  "editorBracketPairGuide.activeBackground6"?: _1 | _57;
   /**
    * Background color of inactive bracket pair guides (1). Requires enabling bracket pair guides.
    */
-  "editorBracketPairGuide.background1"?: _1 | _59;
+  "editorBracketPairGuide.background1"?: _1 | _57;
   /**
    * Background color of inactive bracket pair guides (2). Requires enabling bracket pair guides.
    */
-  "editorBracketPairGuide.background2"?: _1 | _59;
+  "editorBracketPairGuide.background2"?: _1 | _57;
   /**
    * Background color of inactive bracket pair guides (3). Requires enabling bracket pair guides.
    */
-  "editorBracketPairGuide.background3"?: _1 | _59;
+  "editorBracketPairGuide.background3"?: _1 | _57;
   /**
    * Background color of inactive bracket pair guides (4). Requires enabling bracket pair guides.
    */
-  "editorBracketPairGuide.background4"?: _1 | _59;
+  "editorBracketPairGuide.background4"?: _1 | _57;
   /**
    * Background color of inactive bracket pair guides (5). Requires enabling bracket pair guides.
    */
-  "editorBracketPairGuide.background5"?: _1 | _59;
+  "editorBracketPairGuide.background5"?: _1 | _57;
   /**
    * Background color of inactive bracket pair guides (6). Requires enabling bracket pair guides.
    */
-  "editorBracketPairGuide.background6"?: _1 | _59;
+  "editorBracketPairGuide.background6"?: _1 | _57;
   /**
    * Foreground color of editor CodeLens
    */
-  "editorCodeLens.foreground"?: _1 | _65;
+  "editorCodeLens.foreground"?: _1 | string;
   /**
    * Color of background for currently selected or hovered comment range.
    */
-  "editorCommentsWidget.rangeActiveBackground"?: _1 | _86;
+  "editorCommentsWidget.rangeActiveBackground"?: _1 | _88;
   /**
    * Color of background for comment ranges.
    */
-  "editorCommentsWidget.rangeBackground"?: _1 | _86;
+  "editorCommentsWidget.rangeBackground"?: _1 | _88;
   /**
    * Background color for comment reply input box.
    */
-  "editorCommentsWidget.replyInputBackground"?: _1 | _69;
+  "editorCommentsWidget.replyInputBackground"?: _1 | _66;
   /**
    * Color of borders and arrow for resolved comments.
    */
@@ -943,7 +979,7 @@ export interface WorkbenchColors {
   /**
    * Color of the editor cursor.
    */
-  "editorCursor.foreground"?: _1 | _64;
+  "editorCursor.foreground"?: _1 | _62;
   /**
    * Background color of error text in the editor. The color must not be opaque so as not to hide underlying decorations.
    */
@@ -967,15 +1003,15 @@ export interface WorkbenchColors {
   /**
    * Foreground color of the ghost text in the editor.
    */
-  "editorGhostText.foreground"?: _1 | _67;
+  "editorGhostText.foreground"?: _1 | _64;
   /**
    * Color to separate multiple editor groups from each other. Editor groups are the containers of editors.
    */
-  "editorGroup.border"?: _1 | _78;
+  "editorGroup.border"?: _1 | _79;
   /**
    * Background color when dragging editors around. The color should have transparency so that the editor contents can still shine through.
    */
-  "editorGroup.dropBackground"?: _1 | _79;
+  "editorGroup.dropBackground"?: _1 | _80;
   /**
    * Background color of text shown over editors when dragging files. This text informs the user that they can hold shift to drop into the editor.
    */
@@ -1007,7 +1043,7 @@ export interface WorkbenchColors {
   /**
    * Background color of the editor group title header when tabs are enabled. Editor groups are the containers of editors.
    */
-  "editorGroupHeader.tabsBackground"?: _1 | _37;
+  "editorGroupHeader.tabsBackground"?: _1 | _36;
   /**
    * Border color of the editor group title header when tabs are enabled. Editor groups are the containers of editors.
    */
@@ -1015,7 +1051,11 @@ export interface WorkbenchColors {
   /**
    * Editor gutter background color for lines that are added.
    */
-  "editorGutter.addedBackground"?: _1 | _87;
+  "editorGutter.addedBackground"?: _1 | _85;
+  /**
+   * Editor gutter secondary background color for lines that are added.
+   */
+  "editorGutter.addedSecondaryBackground"?: _1 | string;
   /**
    * Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
    */
@@ -1027,7 +1067,7 @@ export interface WorkbenchColors {
   /**
    * Editor gutter decoration color for commenting ranges. This color should be opaque.
    */
-  "editorGutter.commentRangeForeground"?: _1 | _57;
+  "editorGutter.commentRangeForeground"?: _1 | _55;
   /**
    * Editor gutter decoration color for commenting glyphs for unresolved comment threads.
    */
@@ -1037,13 +1077,29 @@ export interface WorkbenchColors {
    */
   "editorGutter.deletedBackground"?: _1 | _3;
   /**
+   * Editor gutter secondary background color for lines that are deleted.
+   */
+  "editorGutter.deletedSecondaryBackground"?: _1 | _82;
+  /**
    * Color of the folding control in the editor gutter.
    */
   "editorGutter.foldingControlForeground"?: _0 | _1;
   /**
+   * Editor gutter decoration color for gutter item background. This color should be opaque.
+   */
+  "editorGutter.itemBackground"?: _1 | _55;
+  /**
+   * Editor gutter decoration color for gutter item glyphs.
+   */
+  "editorGutter.itemGlyphForeground"?: _0 | _1;
+  /**
    * Editor gutter background color for lines that are modified.
    */
   "editorGutter.modifiedBackground"?: _1 | _5;
+  /**
+   * Editor gutter secondary background color for lines that are modified.
+   */
+  "editorGutter.modifiedSecondaryBackground"?: _1 | string;
   /**
    * If set, color of double underlines for hints in the editor.
    */
@@ -1067,7 +1123,7 @@ export interface WorkbenchColors {
   /**
    * Foreground color of the active item in the parameter hint.
    */
-  "editorHoverWidget.highlightForeground"?: _1 | _58;
+  "editorHoverWidget.highlightForeground"?: _1 | _56;
   /**
    * Background color of the editor hover status bar.
    */
@@ -1083,23 +1139,23 @@ export interface WorkbenchColors {
   /**
    * Color of the active editor indentation guides (2).
    */
-  "editorIndentGuide.activeBackground2"?: _1 | _59;
+  "editorIndentGuide.activeBackground2"?: _1 | _57;
   /**
    * Color of the active editor indentation guides (3).
    */
-  "editorIndentGuide.activeBackground3"?: _1 | _59;
+  "editorIndentGuide.activeBackground3"?: _1 | _57;
   /**
    * Color of the active editor indentation guides (4).
    */
-  "editorIndentGuide.activeBackground4"?: _1 | _59;
+  "editorIndentGuide.activeBackground4"?: _1 | _57;
   /**
    * Color of the active editor indentation guides (5).
    */
-  "editorIndentGuide.activeBackground5"?: _1 | _59;
+  "editorIndentGuide.activeBackground5"?: _1 | _57;
   /**
    * Color of the active editor indentation guides (6).
    */
-  "editorIndentGuide.activeBackground6"?: _1 | _59;
+  "editorIndentGuide.activeBackground6"?: _1 | _57;
   /**
    * Color of the editor indentation guides.
    */
@@ -1111,23 +1167,23 @@ export interface WorkbenchColors {
   /**
    * Color of the editor indentation guides (2).
    */
-  "editorIndentGuide.background2"?: _1 | _59;
+  "editorIndentGuide.background2"?: _1 | _57;
   /**
    * Color of the editor indentation guides (3).
    */
-  "editorIndentGuide.background3"?: _1 | _59;
+  "editorIndentGuide.background3"?: _1 | _57;
   /**
    * Color of the editor indentation guides (4).
    */
-  "editorIndentGuide.background4"?: _1 | _59;
+  "editorIndentGuide.background4"?: _1 | _57;
   /**
    * Color of the editor indentation guides (5).
    */
-  "editorIndentGuide.background5"?: _1 | _59;
+  "editorIndentGuide.background5"?: _1 | _57;
   /**
    * Color of the editor indentation guides (6).
    */
-  "editorIndentGuide.background6"?: _1 | _59;
+  "editorIndentGuide.background6"?: _1 | _57;
   /**
    * Background color of info text in the editor. The color must not be opaque so as not to hide underlying decorations.
    */
@@ -1223,7 +1279,7 @@ export interface WorkbenchColors {
   /**
    * Minimap marker color for inline chat inserted content.
    */
-  "editorMinimap.inlineChatInserted"?: _1 | _83;
+  "editorMinimap.inlineChatInserted"?: _1 | _90;
   /**
    * The background color of the primary editor cursor when multiple cursors are present. Allows customizing the color of a character overlapped by a block cursor.
    */
@@ -1231,7 +1287,7 @@ export interface WorkbenchColors {
   /**
    * Color of the primary editor cursor when multiple cursors are present.
    */
-  "editorMultiCursor.primary.foreground"?: _1 | _64;
+  "editorMultiCursor.primary.foreground"?: _1 | _62;
   /**
    * The background color of secondary editor cursors when multiple cursors are present. Allows customizing the color of a character overlapped by a block cursor.
    */
@@ -1239,7 +1295,7 @@ export interface WorkbenchColors {
   /**
    * Color of secondary editor cursors when multiple cursors are present.
    */
-  "editorMultiCursor.secondary.foreground"?: _1 | _64;
+  "editorMultiCursor.secondary.foreground"?: _1 | _62;
   /**
    * Overview ruler marker color for added content.
    */
@@ -1251,7 +1307,7 @@ export interface WorkbenchColors {
   /**
    * Color of the overview ruler border.
    */
-  "editorOverviewRuler.border"?: _1 | _66;
+  "editorOverviewRuler.border"?: _1 | _63;
   /**
    * Overview ruler marker color for matching brackets.
    */
@@ -1259,11 +1315,11 @@ export interface WorkbenchColors {
   /**
    * Editor overview ruler decoration color for resolved comments. This color should be opaque.
    */
-  "editorOverviewRuler.commentForeground"?: _1 | _57;
+  "editorOverviewRuler.commentForeground"?: _1 | _55;
   /**
    * Editor overview ruler decoration color for unresolved comments. This color should be opaque.
    */
-  "editorOverviewRuler.commentUnresolvedForeground"?: _1 | _57;
+  "editorOverviewRuler.commentUnresolvedForeground"?: _1 | _55;
   /**
    * Common ancestor overview ruler foreground for inline merge-conflicts.
    */
@@ -1279,7 +1335,7 @@ export interface WorkbenchColors {
   /**
    * Overview ruler marker color for errors.
    */
-  "editorOverviewRuler.errorForeground"?: _1 | _43;
+  "editorOverviewRuler.errorForeground"?: _1 | _42;
   /**
    * Overview ruler marker color for find matches. The color must not be opaque so as not to hide underlying decorations.
    */
@@ -1295,7 +1351,7 @@ export interface WorkbenchColors {
   /**
    * Overview ruler marker color for inline chat inserted content.
    */
-  "editorOverviewRuler.inlineChatInserted"?: _1 | _83;
+  "editorOverviewRuler.inlineChatInserted"?: _1 | _90;
   /**
    * Overview ruler marker color for inline chat removed content.
    */
@@ -1311,7 +1367,7 @@ export interface WorkbenchColors {
   /**
    * Overview ruler marker color for selection highlights. The color must not be opaque so as not to hide underlying decorations.
    */
-  "editorOverviewRuler.selectionHighlightForeground"?: _1 | _42;
+  "editorOverviewRuler.selectionHighlightForeground"?: _1 | _41;
   /**
    * Overview ruler marker color for warnings.
    */
@@ -1319,7 +1375,7 @@ export interface WorkbenchColors {
   /**
    * Overview ruler marker color for symbol highlights. The color must not be opaque so as not to hide underlying decorations.
    */
-  "editorOverviewRuler.wordHighlightForeground"?: _1 | _42;
+  "editorOverviewRuler.wordHighlightForeground"?: _1 | _41;
   /**
    * Overview ruler marker color for write-access symbol highlights. The color must not be opaque so as not to hide underlying decorations.
    */
@@ -1327,7 +1383,7 @@ export interface WorkbenchColors {
   /**
    * Overview ruler marker color of a textual occurrence for a symbol. The color must not be opaque so as not to hide underlying decorations.
    */
-  "editorOverviewRuler.wordHighlightTextForeground"?: _1 | _42;
+  "editorOverviewRuler.wordHighlightTextForeground"?: _1 | _41;
   /**
    * Background color of the editor pane visible on the left and right side of the centered editor layout.
    */
@@ -1349,6 +1405,10 @@ export interface WorkbenchColors {
    */
   "editorStickyScroll.shadow"?: _1 | _12;
   /**
+   * Background color of the gutter part of sticky scroll in the editor
+   */
+  "editorStickyScrollGutter.background"?: _1 | _19;
+  /**
    * Background color of sticky scroll on hover in the editor
    */
   "editorStickyScrollHover.background"?: _1 | _20;
@@ -1363,7 +1423,7 @@ export interface WorkbenchColors {
   /**
    * Color of the match highlights in the suggest widget when an item is focused.
    */
-  "editorSuggestWidget.focusHighlightForeground"?: _1 | _58;
+  "editorSuggestWidget.focusHighlightForeground"?: _1 | _56;
   /**
    * Foreground color of the suggest widget.
    */
@@ -1371,11 +1431,11 @@ export interface WorkbenchColors {
   /**
    * Color of the match highlights in the suggest widget.
    */
-  "editorSuggestWidget.highlightForeground"?: _1 | _58;
+  "editorSuggestWidget.highlightForeground"?: _1 | _56;
   /**
    * Background color of the selected entry in the suggest widget.
    */
-  "editorSuggestWidget.selectedBackground"?: _1 | _56;
+  "editorSuggestWidget.selectedBackground"?: _1 | _54;
   /**
    * Foreground color of the selected entry in the suggest widget.
    */
@@ -1419,7 +1479,7 @@ export interface WorkbenchColors {
   /**
    * Foreground color for the labels in the editor watermark.
    */
-  "editorWatermark.foreground"?: _1 | _84;
+  "editorWatermark.foreground"?: _1 | _89;
   /**
    * Color of whitespace characters in the editor.
    */
@@ -1463,7 +1523,7 @@ export interface WorkbenchColors {
   /**
    * Button background hover color for extension actions.
    */
-  "extensionButton.hoverBackground"?: _1 | _54;
+  "extensionButton.hoverBackground"?: _1 | _53;
   /**
    * Button background color for extension actions that stand out (e.g. install button).
    */
@@ -1475,15 +1535,19 @@ export interface WorkbenchColors {
   /**
    * Button background hover color for extension actions that stand out (e.g. install button).
    */
-  "extensionButton.prominentHoverBackground"?: _1 | _54;
+  "extensionButton.prominentHoverBackground"?: _1 | _53;
   /**
    * Button separator color for extension actions
    */
-  "extensionButton.separator"?: _1 | _53;
+  "extensionButton.separator"?: _1 | _52;
   /**
    * The icon color for pre-release extension.
    */
   "extensionIcon.preReleaseForeground"?: _1 | string;
+  /**
+   * The icon color for private extensions.
+   */
+  "extensionIcon.privateForeground"?: _1 | string;
   /**
    * The icon color for extension sponsor.
    */
@@ -1491,7 +1555,7 @@ export interface WorkbenchColors {
   /**
    * The icon color for extension ratings.
    */
-  "extensionIcon.starForeground"?: _1 | string;
+  "extensionIcon.starForeground"?: _1 | _91;
   /**
    * The icon color for extension verified publisher.
    */
@@ -1507,7 +1571,7 @@ export interface WorkbenchColors {
   /**
    * Gauge background color.
    */
-  "gauge.background"?: _1 | _50;
+  "gauge.background"?: _1 | string;
   /**
    * Gauge border color.
    */
@@ -1515,31 +1579,31 @@ export interface WorkbenchColors {
   /**
    * Gauge error background color.
    */
-  "gauge.errorBackground"?: _1 | _52;
+  "gauge.errorBackground"?: _1 | string;
   /**
    * Gauge error foreground color.
    */
-  "gauge.errorForeground"?: _1 | string;
+  "gauge.errorForeground"?: _1 | _51;
   /**
    * Gauge foreground color.
    */
-  "gauge.foreground"?: _1 | string;
+  "gauge.foreground"?: _1 | _49;
   /**
    * Gauge warning background color.
    */
-  "gauge.warningBackground"?: _1 | _51;
+  "gauge.warningBackground"?: _1 | string;
   /**
    * Gauge warning foreground color.
    */
-  "gauge.warningForeground"?: _1 | string;
+  "gauge.warningForeground"?: _1 | _50;
   /**
    * Color for the blame editor decoration.
    */
-  "git.blame.editorDecorationForeground"?: _1 | _65;
+  "git.blame.editorDecorationForeground"?: _1 | _30;
   /**
    * Color for added resources.
    */
-  "gitDecoration.addedResourceForeground"?: _1 | _88;
+  "gitDecoration.addedResourceForeground"?: _1 | _86;
   /**
    * Color for resources with conflicts.
    */
@@ -1547,27 +1611,27 @@ export interface WorkbenchColors {
   /**
    * Color for deleted resources.
    */
-  "gitDecoration.deletedResourceForeground"?: _1 | _89;
+  "gitDecoration.deletedResourceForeground"?: _1 | _87;
   /**
    * Color for ignored resources.
    */
-  "gitDecoration.ignoredResourceForeground"?: _1 | _60;
+  "gitDecoration.ignoredResourceForeground"?: _1 | _58;
   /**
    * Color for modified resources.
    */
-  "gitDecoration.modifiedResourceForeground"?: _1 | _85;
+  "gitDecoration.modifiedResourceForeground"?: _1 | _93;
   /**
    * Color for renamed or copied resources.
    */
-  "gitDecoration.renamedResourceForeground"?: _1 | _91;
+  "gitDecoration.renamedResourceForeground"?: _1 | _95;
   /**
    * Color for deleted resources which have been staged.
    */
-  "gitDecoration.stageDeletedResourceForeground"?: _1 | _89;
+  "gitDecoration.stageDeletedResourceForeground"?: _1 | _87;
   /**
    * Color for modified resources which have been staged.
    */
-  "gitDecoration.stageModifiedResourceForeground"?: _1 | _85;
+  "gitDecoration.stageModifiedResourceForeground"?: _1 | _93;
   /**
    * Color for submodule resources.
    */
@@ -1575,7 +1639,7 @@ export interface WorkbenchColors {
   /**
    * Color for untracked resources.
    */
-  "gitDecoration.untrackedResourceForeground"?: _1 | _91;
+  "gitDecoration.untrackedResourceForeground"?: _1 | _95;
   /**
    * The default color for icons in the workbench.
    */
@@ -1595,7 +1659,7 @@ export interface WorkbenchColors {
   /**
    * Shadow color of the interactive editor widget
    */
-  "inlineChat.shadow"?: _1 | _38;
+  "inlineChat.shadow"?: _1 | _37;
   /**
    * Background color of inserted text in the interactive editor input
    */
@@ -1607,7 +1671,7 @@ export interface WorkbenchColors {
   /**
    * Background color of the interactive editor input
    */
-  "inlineChatInput.background"?: _1 | _39;
+  "inlineChatInput.background"?: _1 | _38;
   /**
    * Border color of the interactive editor input
    */
@@ -1619,7 +1683,7 @@ export interface WorkbenchColors {
   /**
    * Foreground color of the interactive editor input placeholder
    */
-  "inlineChatInput.placeholderForeground"?: _1 | _49;
+  "inlineChatInput.placeholderForeground"?: _1 | _48;
   /**
    * Background color for the inline edit gutter indicator.
    */
@@ -1627,7 +1691,11 @@ export interface WorkbenchColors {
   /**
    * Background color for the primary inline edit gutter indicator.
    */
-  "inlineEdit.gutterIndicator.primaryBackground"?: _1 | _5;
+  "inlineEdit.gutterIndicator.primaryBackground"?: _1 | string;
+  /**
+   * Border color for the primary inline edit gutter indicator.
+   */
+  "inlineEdit.gutterIndicator.primaryBorder"?: _1 | _5;
   /**
    * Foreground color for the primary inline edit gutter indicator.
    */
@@ -1635,7 +1703,11 @@ export interface WorkbenchColors {
   /**
    * Background color for the secondary inline edit gutter indicator.
    */
-  "inlineEdit.gutterIndicator.secondaryBackground"?: _1 | _39;
+  "inlineEdit.gutterIndicator.secondaryBackground"?: _1 | _38;
+  /**
+   * Border color for the secondary inline edit gutter indicator.
+   */
+  "inlineEdit.gutterIndicator.secondaryBorder"?: _1 | _38;
   /**
    * Foreground color for the secondary inline edit gutter indicator.
    */
@@ -1643,31 +1715,23 @@ export interface WorkbenchColors {
   /**
    * Background color for the successful inline edit gutter indicator.
    */
-  "inlineEdit.gutterIndicator.successfulBackground"?: _1 | string;
+  "inlineEdit.gutterIndicator.successfulBackground"?: _1 | _5;
+  /**
+   * Border color for the successful inline edit gutter indicator.
+   */
+  "inlineEdit.gutterIndicator.successfulBorder"?: _1 | _5;
   /**
    * Foreground color for the successful inline edit gutter indicator.
    */
   "inlineEdit.gutterIndicator.successfulForeground"?: _1 | _27;
   /**
-   * Background color for the inline edit indicator.
-   */
-  "inlineEdit.indicator.background"?: _1 | _5;
-  /**
-   * Border color for the inline edit indicator.
-   */
-  "inlineEdit.indicator.border"?: _1 | _53;
-  /**
-   * Foreground color for the inline edit indicator.
-   */
-  "inlineEdit.indicator.foreground"?: _1 | _27;
-  /**
    * Background color for the modified text in inline edits.
    */
-  "inlineEdit.modifiedBackground"?: _1 | _71;
+  "inlineEdit.modifiedBackground"?: _1 | string;
   /**
    * Border color for the modified text in inline edits.
    */
-  "inlineEdit.modifiedBorder"?: _1 | _22;
+  "inlineEdit.modifiedBorder"?: _1 | _71;
   /**
    * Background color for the changed lines in the modified text of inline edits.
    */
@@ -1675,35 +1739,35 @@ export interface WorkbenchColors {
   /**
    * Overlay color for the changed text in the modified text of inline edits.
    */
-  "inlineEdit.modifiedChangedTextBackground"?: _1 | _34;
+  "inlineEdit.modifiedChangedTextBackground"?: _1 | string;
   /**
    * Background color for the original text in inline edits.
    */
-  "inlineEdit.originalBackground"?: _1 | _71;
+  "inlineEdit.originalBackground"?: _1 | string;
   /**
    * Border color for the original text in inline edits.
    */
-  "inlineEdit.originalBorder"?: _1 | _22;
+  "inlineEdit.originalBorder"?: _1 | _70;
   /**
    * Background color for the changed lines in the original text of inline edits.
    */
-  "inlineEdit.originalChangedLineBackground"?: _1 | _71;
+  "inlineEdit.originalChangedLineBackground"?: _1 | _69;
   /**
    * Overlay color for the changed text in the original text of inline edits.
    */
-  "inlineEdit.originalChangedTextBackground"?: _1 | _35;
+  "inlineEdit.originalChangedTextBackground"?: _1 | _69;
   /**
-   * Border color for the inline edits widget over the original text when tab will accept it.
+   * Modified border color for the inline edits widget when tab will accept it.
    */
-  "inlineEdit.tabWillAcceptBorder"?: _1 | string;
+  "inlineEdit.tabWillAcceptModifiedBorder"?: _1 | _71;
   /**
-   * Background color for the inline edit word replacement view.
+   * Original border color for the inline edits widget over the original text when tab will accept it.
    */
-  "inlineEdit.wordReplacementView.background"?: _1 | string;
+  "inlineEdit.tabWillAcceptOriginalBorder"?: _1 | _70;
   /**
    * Input box background.
    */
-  "input.background"?: _1 | _39;
+  "input.background"?: _1 | _38;
   /**
    * Input box border.
    */
@@ -1715,15 +1779,15 @@ export interface WorkbenchColors {
   /**
    * Input box foreground color for placeholder text.
    */
-  "input.placeholderForeground"?: _1 | _49;
+  "input.placeholderForeground"?: _1 | _48;
   /**
    * Background hover color of options in input fields.
    */
-  "inputOption.activeBackground"?: _1 | _48;
+  "inputOption.activeBackground"?: _1 | _47;
   /**
    * Border color of activated options in input fields.
    */
-  "inputOption.activeBorder"?: _1 | _46;
+  "inputOption.activeBorder"?: _1 | _45;
   /**
    * Foreground color of activated options in input fields.
    */
@@ -1731,7 +1795,7 @@ export interface WorkbenchColors {
   /**
    * Background color of activated options in input fields.
    */
-  "inputOption.hoverBackground"?: _1 | _47;
+  "inputOption.hoverBackground"?: _1 | _46;
   /**
    * Input validation background color for error severity.
    */
@@ -1739,7 +1803,7 @@ export interface WorkbenchColors {
   /**
    * Input validation border color for error severity.
    */
-  "inputValidation.errorBorder"?: _1 | _52;
+  "inputValidation.errorBorder"?: _1 | _51;
   /**
    * Input validation foreground color for error severity.
    */
@@ -1751,7 +1815,7 @@ export interface WorkbenchColors {
   /**
    * Input validation border color for information severity.
    */
-  "inputValidation.infoBorder"?: _1 | _50;
+  "inputValidation.infoBorder"?: _1 | _49;
   /**
    * Input validation foreground color for information severity.
    */
@@ -1763,7 +1827,7 @@ export interface WorkbenchColors {
   /**
    * Input validation border color for warning severity.
    */
-  "inputValidation.warningBorder"?: _1 | _51;
+  "inputValidation.warningBorder"?: _1 | _50;
   /**
    * Input validation foreground color for warning severity.
    */
@@ -1771,11 +1835,11 @@ export interface WorkbenchColors {
   /**
    * The border color for the current interactive code cell when the editor has focus.
    */
-  "interactive.activeCodeBorder"?: _1 | _50;
+  "interactive.activeCodeBorder"?: _1 | _49;
   /**
    * The border color for the current interactive code cell when the editor does not have focus.
    */
-  "interactive.inactiveCodeBorder"?: _1 | _57;
+  "interactive.inactiveCodeBorder"?: _1 | _55;
   /**
    * Keybinding label background color. The keybinding label is used to represent a keyboard shortcut.
    */
@@ -1795,15 +1859,15 @@ export interface WorkbenchColors {
   /**
    * Background color for the keyboard shortcuts table header.
    */
-  "keybindingTable.headerBackground"?: _1 | _61;
+  "keybindingTable.headerBackground"?: _1 | _60;
   /**
    * Background color for the keyboard shortcuts table alternating rows.
    */
-  "keybindingTable.rowsBackground"?: _1 | _61;
+  "keybindingTable.rowsBackground"?: _1 | _60;
   /**
    * List/Tree background color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
    */
-  "list.activeSelectionBackground"?: _1 | _56;
+  "list.activeSelectionBackground"?: _1 | _54;
   /**
    * List/Tree foreground color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
    */
@@ -1815,7 +1879,7 @@ export interface WorkbenchColors {
   /**
    * List/Tree foreground color for items that are deemphasized.
    */
-  "list.deemphasizedForeground"?: _1 | _60;
+  "list.deemphasizedForeground"?: _1 | _58;
   /**
    * List/Tree drag and drop background when moving items over other items when using the mouse.
    */
@@ -1851,7 +1915,7 @@ export interface WorkbenchColors {
   /**
    * List/Tree foreground color of the match highlights on actively focused items when searching inside the list/tree.
    */
-  "list.focusHighlightForeground"?: _1 | _58;
+  "list.focusHighlightForeground"?: _1 | _56;
   /**
    * List/Tree outline color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
    */
@@ -1859,7 +1923,7 @@ export interface WorkbenchColors {
   /**
    * List/Tree foreground color of the match highlights when searching inside the list/tree.
    */
-  "list.highlightForeground"?: _1 | _58;
+  "list.highlightForeground"?: _1 | _56;
   /**
    * List/Tree background when hovering over items using the mouse.
    */
@@ -1879,7 +1943,7 @@ export interface WorkbenchColors {
   /**
    * List/Tree background color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
    */
-  "list.inactiveSelectionBackground"?: _1 | _57;
+  "list.inactiveSelectionBackground"?: _1 | _55;
   /**
    * List/Tree foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
    */
@@ -1891,7 +1955,7 @@ export interface WorkbenchColors {
   /**
    * List/Tree foreground color for invalid items, for example an unresolved root in explorer.
    */
-  "list.invalidItemForeground"?: _1 | _51;
+  "list.invalidItemForeground"?: _1 | _50;
   /**
    * Foreground color of list items containing warnings.
    */
@@ -1903,15 +1967,19 @@ export interface WorkbenchColors {
   /**
    * Outline color of the type filter widget in lists and trees, when there are no matches.
    */
-  "listFilterWidget.noMatchesOutline"?: _1 | _52;
+  "listFilterWidget.noMatchesOutline"?: _1 | _51;
   /**
    * Outline color of the type filter widget in lists and trees.
    */
-  "listFilterWidget.outline"?: _1 | _59;
+  "listFilterWidget.outline"?: _1 | _57;
   /**
    * Shadow color of the type filter widget in lists and trees.
    */
-  "listFilterWidget.shadow"?: _1 | _38;
+  "listFilterWidget.shadow"?: _1 | _37;
+  /**
+   * The icon color for mcp starred.
+   */
+  "mcpIcon.starForeground"?: _1 | _91;
   /**
    * Background color of menu items.
    */
@@ -1943,7 +2011,7 @@ export interface WorkbenchColors {
   /**
    * Background color of the selected menu item in the menubar.
    */
-  "menubar.selectionBackground"?: _1 | _40;
+  "menubar.selectionBackground"?: _1 | _39;
   /**
    * Border color of the selected menu item in the menubar.
    */
@@ -1987,7 +2055,7 @@ export interface WorkbenchColors {
   /**
    * The background color for word changes.
    */
-  "mergeEditor.change.word.background"?: _1 | _92;
+  "mergeEditor.change.word.background"?: _1 | _71;
   /**
    * The background color for changes in base.
    */
@@ -2043,7 +2111,7 @@ export interface WorkbenchColors {
   /**
    * Minimap marker color for errors.
    */
-  "minimap.errorHighlight"?: _1 | _43;
+  "minimap.errorHighlight"?: _1 | _42;
   /**
    * Minimap marker color for find matches.
    */
@@ -2071,7 +2139,7 @@ export interface WorkbenchColors {
   /**
    * Minimap gutter background color for lines that are added.
    */
-  "minimapGutter.addedBackground"?: _1 | _87;
+  "minimapGutter.addedBackground"?: _1 | _85;
   /**
    * Minimap gutter background color for lines that are deleted.
    */
@@ -2107,11 +2175,11 @@ export interface WorkbenchColors {
   /**
    * The border color for notebook cells.
    */
-  "notebook.cellBorderColor"?: _1 | _57;
+  "notebook.cellBorderColor"?: _1 | _55;
   /**
    * Cell editor background color.
    */
-  "notebook.cellEditorBackground"?: _1 | _37;
+  "notebook.cellEditorBackground"?: _1 | _36;
   /**
    * The background color of a cell when the cell is hovered.
    */
@@ -2147,7 +2215,7 @@ export interface WorkbenchColors {
   /**
    * The color of the cell's top and bottom border when a cell is focused while the primary focus is outside of the editor.
    */
-  "notebook.inactiveFocusedCellBorder"?: _1 | _57;
+  "notebook.inactiveFocusedCellBorder"?: _1 | _55;
   /**
    * The color of the cell's borders when multiple cells are selected.
    */
@@ -2163,11 +2231,11 @@ export interface WorkbenchColors {
   /**
    * The background color of a cell when the cell is selected.
    */
-  "notebook.selectedCellBackground"?: _1 | _57;
+  "notebook.selectedCellBackground"?: _1 | _55;
   /**
    * The color of the cell's top and bottom border when the cell is selected but not focused.
    */
-  "notebook.selectedCellBorder"?: _1 | _57;
+  "notebook.selectedCellBorder"?: _1 | _55;
   /**
    * Background color of highlighted cell
    */
@@ -2175,7 +2243,7 @@ export interface WorkbenchColors {
   /**
    * The color of the running cell decoration in the notebook editor overview ruler.
    */
-  "notebookEditorOverviewRuler.runningCellForeground"?: _1 | _44;
+  "notebookEditorOverviewRuler.runningCellForeground"?: _1 | _43;
   /**
    * Notebook scrollbar slider background color when clicked on.
    */
@@ -2199,11 +2267,11 @@ export interface WorkbenchColors {
   /**
    * The error icon color of notebook cells in the cell status bar.
    */
-  "notebookStatusSuccessIcon.foreground"?: _1 | _44;
+  "notebookStatusSuccessIcon.foreground"?: _1 | _43;
   /**
    * Notifications center border color. Notifications slide in from the bottom right of the window.
    */
-  "notificationCenter.border"?: _1 | _39;
+  "notificationCenter.border"?: _1 | _38;
   /**
    * Notifications center header background color. Notifications slide in from the bottom right of the window.
    */
@@ -2243,7 +2311,7 @@ export interface WorkbenchColors {
   /**
    * Notification toast border color. Notifications slide in from the bottom right of the window.
    */
-  "notificationToast.border"?: _1 | _39;
+  "notificationToast.border"?: _1 | _38;
   /**
    * Output view background color.
    */
@@ -2255,7 +2323,7 @@ export interface WorkbenchColors {
   /**
    * Panel background color. Panels are shown below the editor area and contain views like output and integrated terminal.
    */
-  "panel.background"?: _1 | _37;
+  "panel.background"?: _1 | _36;
   /**
    * Panel border color to separate the panel from the editor. Panels are shown below the editor area and contain views like output and integrated terminal.
    */
@@ -2275,7 +2343,7 @@ export interface WorkbenchColors {
   /**
    * Drag and drop feedback color for the panel sections. The color should have transparency so that the panel sections can still shine through. Panels are shown below the editor area and contain views like output and integrated terminal. Panel sections are views nested within the panels.
    */
-  "panelSection.dropBackground"?: _1 | _79;
+  "panelSection.dropBackground"?: _1 | _80;
   /**
    * Panel section header background color. Panels are shown below the editor area and contain views like output and integrated terminal. Panel sections are views nested within the panels.
    */
@@ -2291,7 +2359,7 @@ export interface WorkbenchColors {
   /**
    * Background color of sticky scroll in the panel.
    */
-  "panelStickyScroll.background"?: _1 | _37;
+  "panelStickyScroll.background"?: _1 | _36;
   /**
    * Border color of sticky scroll in the panel.
    */
@@ -2335,7 +2403,7 @@ export interface WorkbenchColors {
   /**
    * Match highlight color in the peek view editor.
    */
-  "peekViewEditor.matchHighlightBackground"?: _1 | _70;
+  "peekViewEditor.matchHighlightBackground"?: _1 | _67;
   /**
    * Match highlight border in the peek view editor.
    */
@@ -2348,6 +2416,10 @@ export interface WorkbenchColors {
    * Background color of sticky scroll in the peek view editor.
    */
   "peekViewEditorStickyScroll.background"?: _1 | _19;
+  /**
+   * Background color of the gutter part of sticky scroll in the peek view editor.
+   */
+  "peekViewEditorStickyScrollGutter.background"?: _1 | _19;
   /**
    * Background color of the peek view result list.
    */
@@ -2363,7 +2435,7 @@ export interface WorkbenchColors {
   /**
    * Match highlight color in the peek view result list.
    */
-  "peekViewResult.matchHighlightBackground"?: _1 | _70;
+  "peekViewResult.matchHighlightBackground"?: _1 | _67;
   /**
    * Background color of the selected entry in the peek view result list.
    */
@@ -2375,7 +2447,7 @@ export interface WorkbenchColors {
   /**
    * Background color of the peek view title area.
    */
-  "peekViewTitle.background"?: _1 | _69;
+  "peekViewTitle.background"?: _1 | _66;
   /**
    * Color of the peek view title info.
    */
@@ -2427,7 +2499,7 @@ export interface WorkbenchColors {
   /**
    * Quick picker background color. The quick picker widget is the container for pickers like the command palette.
    */
-  "quickInput.background"?: _1 | _62;
+  "quickInput.background"?: _1 | _61;
   /**
    * Quick picker foreground color. The quick picker widget is the container for pickers like the command palette.
    */
@@ -2436,7 +2508,7 @@ export interface WorkbenchColors {
   /**
    * Quick picker background color for the focused item.
    */
-  "quickInputList.focusBackground"?: _1 | _56;
+  "quickInputList.focusBackground"?: _1 | _54;
   /**
    * Quick picker foreground color for the focused item.
    */
@@ -2448,15 +2520,15 @@ export interface WorkbenchColors {
   /**
    * Quick picker title background color. The quick picker widget is the container for pickers like the command palette.
    */
-  "quickInputTitle.background"?: _1 | _63;
+  "quickInputTitle.background"?: _1 | string;
   /**
    * Background color of active radio option.
    */
-  "radio.activeBackground"?: _1 | _48;
+  "radio.activeBackground"?: _1 | _47;
   /**
    * Border color of the active radio option.
    */
-  "radio.activeBorder"?: _1 | _46;
+  "radio.activeBorder"?: _1 | _45;
   /**
    * Foreground color of active radio option.
    */
@@ -2468,7 +2540,7 @@ export interface WorkbenchColors {
   /**
    * Border color of the inactive radio option.
    */
-  "radio.inactiveBorder"?: _1 | _55;
+  "radio.inactiveBorder"?: _1 | string;
   /**
    * Foreground color of inactive radio option.
    */
@@ -2476,7 +2548,7 @@ export interface WorkbenchColors {
   /**
    * Background color of inactive active radio option when hovering.
    */
-  "radio.inactiveHoverBackground"?: _1 | _47;
+  "radio.inactiveHoverBackground"?: _1 | _46;
   /**
    * Border color of active sashes.
    */
@@ -2508,7 +2580,7 @@ export interface WorkbenchColors {
   /**
    * History item hover additions foreground color.
    */
-  "scmGraph.historyItemHoverAdditionsForeground"?: _1 | _88;
+  "scmGraph.historyItemHoverAdditionsForeground"?: _1 | _86;
   /**
    * History item hover default label background color.
    */
@@ -2520,7 +2592,7 @@ export interface WorkbenchColors {
   /**
    * History item hover deletions foreground color.
    */
-  "scmGraph.historyItemHoverDeletionsForeground"?: _1 | _89;
+  "scmGraph.historyItemHoverDeletionsForeground"?: _1 | _87;
   /**
    * History item hover label foreground color.
    */
@@ -2532,7 +2604,7 @@ export interface WorkbenchColors {
   /**
    * History item remote reference color.
    */
-  "scmGraph.historyItemRemoteRefColor"?: _1 | _45;
+  "scmGraph.historyItemRemoteRefColor"?: _1 | _44;
   /**
    * Scrollbar shadow to indicate that the view is scrolled.
    */
@@ -2572,7 +2644,7 @@ export interface WorkbenchColors {
   /**
    * Settings editor checkbox background.
    */
-  "settings.checkboxBackground"?: _1 | _39;
+  "settings.checkboxBackground"?: _1 | _38;
   /**
    * Settings editor checkbox border.
    */
@@ -2584,7 +2656,7 @@ export interface WorkbenchColors {
   /**
    * Settings editor dropdown background.
    */
-  "settings.dropdownBackground"?: _1 | _39;
+  "settings.dropdownBackground"?: _1 | _38;
   /**
    * Settings editor dropdown border.
    */
@@ -2616,11 +2688,11 @@ export interface WorkbenchColors {
   /**
    * The color of the modified setting indicator.
    */
-  "settings.modifiedItemIndicator"?: _1 | _70;
+  "settings.modifiedItemIndicator"?: _1 | _67;
   /**
    * Settings editor number input box background.
    */
-  "settings.numberInputBackground"?: _1 | _39;
+  "settings.numberInputBackground"?: _1 | _38;
   /**
    * Settings editor number input box border.
    */
@@ -2644,7 +2716,7 @@ export interface WorkbenchColors {
   /**
    * Settings editor text input box background.
    */
-  "settings.textInputBackground"?: _1 | _39;
+  "settings.textInputBackground"?: _1 | _38;
   /**
    * Settings editor text input box border.
    */
@@ -2656,7 +2728,7 @@ export interface WorkbenchColors {
   /**
    * Side bar background color. The side bar is the container for views like explorer and search.
    */
-  "sideBar.background"?: _1 | _37;
+  "sideBar.background"?: _1 | _36;
   /**
    * Side bar border color on the side separating to the editor. The side bar is the container for views like explorer and search.
    */
@@ -2664,7 +2736,7 @@ export interface WorkbenchColors {
   /**
    * Drag and drop feedback color for the side bar sections. The color should have transparency so that the side bar sections can still shine through. The side bar is the container for views like explorer and search. Side bar sections are views nested within the side bar.
    */
-  "sideBar.dropBackground"?: _1 | _79;
+  "sideBar.dropBackground"?: _1 | _80;
   /**
    * Side bar foreground color. The side bar is the container for views like explorer and search.
    */
@@ -2676,7 +2748,7 @@ export interface WorkbenchColors {
   /**
    * Side bar section header background color. The side bar is the container for views like explorer and search. Side bar sections are views nested within the side bar.
    */
-  "sideBarSectionHeader.background"?: _1 | _37;
+  "sideBarSectionHeader.background"?: _1 | _36;
   /**
    * Side bar section header border color. The side bar is the container for views like explorer and search. Side bar sections are views nested within the side bar.
    */
@@ -2688,7 +2760,7 @@ export interface WorkbenchColors {
   /**
    * Background color of sticky scroll in the side bar.
    */
-  "sideBarStickyScroll.background"?: _1 | _37;
+  "sideBarStickyScroll.background"?: _1 | _36;
   /**
    * Border color of sticky scroll in the side bar.
    */
@@ -2700,7 +2772,7 @@ export interface WorkbenchColors {
   /**
    * Side bar title background color. The side bar is the container for views like explorer and search.
    */
-  "sideBarTitle.background"?: _1 | _37;
+  "sideBarTitle.background"?: _1 | _36;
   /**
    * Side bar title border color on the bottom, separating the title from the views. The side bar is the container for views like explorer and search.
    */
@@ -2712,11 +2784,11 @@ export interface WorkbenchColors {
   /**
    * Color to separate two editors from each other when shown side by side in an editor group from top to bottom.
    */
-  "sideBySideEditor.horizontalBorder"?: _1 | _78;
+  "sideBySideEditor.horizontalBorder"?: _1 | _79;
   /**
    * Color to separate two editors from each other when shown side by side in an editor group from left to right.
    */
-  "sideBySideEditor.verticalBorder"?: _1 | _78;
+  "sideBySideEditor.verticalBorder"?: _1 | _79;
   /**
    * Border color of the sash border.
    */
@@ -2724,7 +2796,7 @@ export interface WorkbenchColors {
   /**
    * Status bar background color when a workspace or folder is opened. The status bar is shown in the bottom of the window.
    */
-  "statusBar.background"?: _1 | _37;
+  "statusBar.background"?: _1 | _36;
   /**
    * Status bar border color separating to the sidebar and editor. The status bar is shown in the bottom of the window.
    */
@@ -2768,11 +2840,11 @@ export interface WorkbenchColors {
   /**
    * Status bar item background color when hovering an item that contains two hovers. The status bar is shown in the bottom of the window.
    */
-  "statusBarItem.compactHoverBackground"?: _1 | _55;
+  "statusBarItem.compactHoverBackground"?: _1 | string;
   /**
    * Status bar error items background color. Error items stand out from other status bar entries to indicate error conditions. The status bar is shown in the bottom of the window.
    */
-  "statusBarItem.errorBackground"?: _1 | string;
+  "statusBarItem.errorBackground"?: _1 | _82;
   /**
    * Status bar error items foreground color. Error items stand out from other status bar entries to indicate error conditions. The status bar is shown in the bottom of the window.
    */
@@ -2780,11 +2852,11 @@ export interface WorkbenchColors {
   /**
    * Status bar error items background color when hovering. Error items stand out from other status bar entries to indicate error conditions. The status bar is shown in the bottom of the window.
    */
-  "statusBarItem.errorHoverBackground"?: _1 | _80;
+  "statusBarItem.errorHoverBackground"?: _1 | _81;
   /**
    * Status bar error items foreground color when hovering. Error items stand out from other status bar entries to indicate error conditions. The status bar is shown in the bottom of the window.
    */
-  "statusBarItem.errorHoverForeground"?: _0 | _1;
+  "statusBarItem.errorHoverForeground"?: _1 | _27;
   /**
    * Status bar item border color when focused on keyboard navigation. The status bar is shown in the bottom of the window.
    */
@@ -2792,11 +2864,11 @@ export interface WorkbenchColors {
   /**
    * Status bar item background color when hovering. The status bar is shown in the bottom of the window.
    */
-  "statusBarItem.hoverBackground"?: _1 | _80;
+  "statusBarItem.hoverBackground"?: _1 | _81;
   /**
    * Status bar item foreground color when hovering. The status bar is shown in the bottom of the window.
    */
-  "statusBarItem.hoverForeground"?: _0 | _1;
+  "statusBarItem.hoverForeground"?: _1 | _27;
   /**
    * Status bar item background color when the workbench is offline.
    */
@@ -2808,11 +2880,11 @@ export interface WorkbenchColors {
   /**
    * Status bar item background hover color when the workbench is offline.
    */
-  "statusBarItem.offlineHoverBackground"?: _1 | _80;
+  "statusBarItem.offlineHoverBackground"?: _1 | _81;
   /**
    * Status bar item foreground hover color when the workbench is offline.
    */
-  "statusBarItem.offlineHoverForeground"?: _0 | _1;
+  "statusBarItem.offlineHoverForeground"?: _1 | _27;
   /**
    * Status bar prominent items background color. Prominent items stand out from other status bar entries to indicate importance. The status bar is shown in the bottom of the window.
    */
@@ -2824,11 +2896,11 @@ export interface WorkbenchColors {
   /**
    * Status bar prominent items background color when hovering. Prominent items stand out from other status bar entries to indicate importance. The status bar is shown in the bottom of the window.
    */
-  "statusBarItem.prominentHoverBackground"?: _1 | _80;
+  "statusBarItem.prominentHoverBackground"?: _1 | _81;
   /**
    * Status bar prominent items foreground color when hovering. Prominent items stand out from other status bar entries to indicate importance. The status bar is shown in the bottom of the window.
    */
-  "statusBarItem.prominentHoverForeground"?: _0 | _1;
+  "statusBarItem.prominentHoverForeground"?: _1 | _27;
   /**
    * Background color for the remote indicator on the status bar.
    */
@@ -2840,11 +2912,11 @@ export interface WorkbenchColors {
   /**
    * Background color for the remote indicator on the status bar when hovering.
    */
-  "statusBarItem.remoteHoverBackground"?: _1 | _80;
+  "statusBarItem.remoteHoverBackground"?: _1 | _81;
   /**
    * Foreground color for the remote indicator on the status bar when hovering.
    */
-  "statusBarItem.remoteHoverForeground"?: _0 | _1;
+  "statusBarItem.remoteHoverForeground"?: _1 | _27;
   /**
    * Status bar warning items background color. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
    */
@@ -2856,11 +2928,11 @@ export interface WorkbenchColors {
   /**
    * Status bar warning items background color when hovering. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
    */
-  "statusBarItem.warningHoverBackground"?: _1 | _80;
+  "statusBarItem.warningHoverBackground"?: _1 | _81;
   /**
    * Status bar warning items foreground color when hovering. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
    */
-  "statusBarItem.warningHoverForeground"?: _0 | _1;
+  "statusBarItem.warningHoverForeground"?: _1 | _27;
   /**
    * The foreground color for array symbols. These symbols appear in the outline, breadcrumb, and suggest widget.
    */
@@ -2872,7 +2944,7 @@ export interface WorkbenchColors {
   /**
    * The foreground color for class symbols. These symbols appear in the outline, breadcrumb, and suggest widget.
    */
-  "symbolIcon.classForeground"?: _1 | _68;
+  "symbolIcon.classForeground"?: _1 | _65;
   /**
    * The foreground color for color symbols. These symbols appear in the outline, breadcrumb, and suggest widget.
    */
@@ -2884,11 +2956,11 @@ export interface WorkbenchColors {
   /**
    * The foreground color for constructor symbols. These symbols appear in the outline, breadcrumb, and suggest widget.
    */
-  "symbolIcon.constructorForeground"?: _1 | _45;
+  "symbolIcon.constructorForeground"?: _1 | _44;
   /**
    * The foreground color for enumerator symbols. These symbols appear in the outline, breadcrumb, and suggest widget.
    */
-  "symbolIcon.enumeratorForeground"?: _1 | _68;
+  "symbolIcon.enumeratorForeground"?: _1 | _65;
   /**
    * The foreground color for enumerator member symbols. These symbols appear in the outline, breadcrumb, and suggest widget.
    */
@@ -2896,7 +2968,7 @@ export interface WorkbenchColors {
   /**
    * The foreground color for event symbols. These symbols appear in the outline, breadcrumb, and suggest widget.
    */
-  "symbolIcon.eventForeground"?: _1 | _68;
+  "symbolIcon.eventForeground"?: _1 | _65;
   /**
    * The foreground color for field symbols. These symbols appear in the outline, breadcrumb, and suggest widget.
    */
@@ -2912,7 +2984,7 @@ export interface WorkbenchColors {
   /**
    * The foreground color for function symbols. These symbols appear in the outline, breadcrumb, and suggest widget.
    */
-  "symbolIcon.functionForeground"?: _1 | _45;
+  "symbolIcon.functionForeground"?: _1 | _44;
   /**
    * The foreground color for interface symbols. These symbols appear in the outline, breadcrumb, and suggest widget.
    */
@@ -2928,7 +3000,7 @@ export interface WorkbenchColors {
   /**
    * The foreground color for method symbols. These symbols appear in the outline, breadcrumb, and suggest widget.
    */
-  "symbolIcon.methodForeground"?: _1 | _45;
+  "symbolIcon.methodForeground"?: _1 | _44;
   /**
    * The foreground color for module symbols. These symbols appear in the outline, breadcrumb, and suggest widget.
    */
@@ -3036,7 +3108,7 @@ export interface WorkbenchColors {
   /**
    * Inactive tab background color in an active group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
    */
-  "tab.inactiveBackground"?: _1 | _37;
+  "tab.inactiveBackground"?: _1 | _36;
   /**
    * Inactive tab foreground color in an active group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
    */
@@ -3044,15 +3116,15 @@ export interface WorkbenchColors {
   /**
    * Border on the top of modified inactive tabs in an active group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
    */
-  "tab.inactiveModifiedBorder"?: _1 | _77;
+  "tab.inactiveModifiedBorder"?: _1 | _78;
   /**
    * Border to separate pinned tabs from other tabs. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
    */
-  "tab.lastPinnedBorder"?: _1 | _36;
+  "tab.lastPinnedBorder"?: _1 | _35;
   /**
    * Background of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
    */
-  "tab.selectedBackground"?: _1 | _62;
+  "tab.selectedBackground"?: _1 | _61;
   /**
    * Border to the top of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
    */
@@ -3076,11 +3148,11 @@ export interface WorkbenchColors {
   /**
    * Active tab foreground color in an unfocused group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
    */
-  "tab.unfocusedActiveForeground"?: _1 | _76;
+  "tab.unfocusedActiveForeground"?: _1 | _77;
   /**
    * Border on the top of modified active tabs in an unfocused group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
    */
-  "tab.unfocusedActiveModifiedBorder"?: _1 | _77;
+  "tab.unfocusedActiveModifiedBorder"?: _1 | _78;
   /**
    * Tab background color in an unfocused group when hovering. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
    */
@@ -3096,7 +3168,7 @@ export interface WorkbenchColors {
   /**
    * Inactive tab background color in an unfocused group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
    */
-  "tab.unfocusedInactiveBackground"?: _1 | _37;
+  "tab.unfocusedInactiveBackground"?: _1 | _36;
   /**
    * Inactive tab foreground color in an unfocused group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
    */
@@ -3140,7 +3212,7 @@ export interface WorkbenchColors {
   /**
    * 'BrightWhite' ANSI color in the terminal.
    */
-  "terminal.ansiBrightWhite"?: _1 | _97;
+  "terminal.ansiBrightWhite"?: _1 | _100;
   /**
    * 'BrightYellow' ANSI color in the terminal.
    */
@@ -3164,7 +3236,7 @@ export interface WorkbenchColors {
   /**
    * 'White' ANSI color in the terminal.
    */
-  "terminal.ansiWhite"?: _1 | _97;
+  "terminal.ansiWhite"?: _1 | _100;
   /**
    * 'Yellow' ANSI color in the terminal.
    */
@@ -3212,7 +3284,7 @@ export interface WorkbenchColors {
   /**
    * Foreground color of the terminal initial hint.
    */
-  "terminal.initialHintForeground"?: _1 | _67;
+  "terminal.initialHintForeground"?: _1 | _64;
   /**
    * The selection background color of the terminal.
    */
@@ -3240,7 +3312,7 @@ export interface WorkbenchColors {
   /**
    * The foreground color of the terminal command guide that appears to the left of a command and its output on hover.
    */
-  "terminalCommandGuide.foreground"?: _1 | _57;
+  "terminalCommandGuide.foreground"?: _1 | _55;
   /**
    * The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor.
    */
@@ -3252,7 +3324,7 @@ export interface WorkbenchColors {
   /**
    * The overview ruler left-side border color.
    */
-  "terminalOverviewRuler.border"?: _1 | _66;
+  "terminalOverviewRuler.border"?: _1 | _63;
   /**
    * The overview ruler cursor color.
    */
@@ -3276,11 +3348,75 @@ export interface WorkbenchColors {
   /**
    * The foreground color for an alias icon. These icons will appear in the terminal suggest widget.
    */
-  "terminalSymbolIcon.aliasForeground"?: _1 | _45;
+  "terminalSymbolIcon.aliasForeground"?: _1 | _44;
+  /**
+   * The foreground color for an argument icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.argumentForeground"?: _1 | _33;
+  /**
+   * The foreground color for a branch icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.branchForeground"?: _0 | _1;
+  /**
+   * The foreground color for a commit icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.commitForeground"?: _0 | _1;
+  /**
+   * The foreground color for a file icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.fileForeground"?: _0 | _1;
   /**
    * The foreground color for an flag icon. These icons will appear in the terminal suggest widget.
    */
-  "terminalSymbolIcon.flagForeground"?: _1 | _68;
+  "terminalSymbolIcon.flagForeground"?: _1 | _65;
+  /**
+   * The foreground color for a folder icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.folderForeground"?: _0 | _1;
+  /**
+   * The foreground color for an inline suggestion icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.inlineSuggestionForeground"?: _1 | _6;
+  /**
+   * The foreground color for a method icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.methodForeground"?: _1 | _44;
+  /**
+   * The foreground color for an option icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.optionForeground"?: _1 | _65;
+  /**
+   * The foreground color for an enum member icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.optionValueForeground"?: _1 | _33;
+  /**
+   * The foreground color for a completed pull request icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.pullRequestDoneForeground"?: _0 | _1;
+  /**
+   * The foreground color for a pull request icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.pullRequestForeground"?: _0 | _1;
+  /**
+   * The foreground color for a remote icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.remoteForeground"?: _0 | _1;
+  /**
+   * The foreground color for a stash icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.stashForeground"?: _0 | _1;
+  /**
+   * The foreground color for a symbolic link file icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.symbolicLinkFileForeground"?: _0 | _1;
+  /**
+   * The foreground color for a symbolic link folder icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.symbolicLinkFolderForeground"?: _0 | _1;
+  /**
+   * The foreground color for a tag icon. These icons will appear in the terminal suggest widget.
+   */
+  "terminalSymbolIcon.tagForeground"?: _0 | _1;
   /**
    * Background for the badge indicating execution count
    */
@@ -3292,7 +3428,7 @@ export interface WorkbenchColors {
   /**
    * Background color of text that was covered.
    */
-  "testing.coveredBackground"?: _1 | _92;
+  "testing.coveredBackground"?: _1 | _71;
   /**
    * Border color of text that was covered.
    */
@@ -3300,7 +3436,7 @@ export interface WorkbenchColors {
   /**
    * Gutter color of regions where code was covered.
    */
-  "testing.coveredGutterBackground"?: _1 | _83;
+  "testing.coveredGutterBackground"?: _1 | _90;
   /**
    * Color for the 'Errored' icon in the test explorer.
    */
@@ -3308,7 +3444,7 @@ export interface WorkbenchColors {
   /**
    * Retired color for the 'Errored' icon in the test explorer.
    */
-  "testing.iconErrored.retired"?: _1 | _93;
+  "testing.iconErrored.retired"?: _1 | _96;
   /**
    * Color for the 'failed' icon in the test explorer.
    */
@@ -3316,11 +3452,11 @@ export interface WorkbenchColors {
   /**
    * Retired color for the 'failed' icon in the test explorer.
    */
-  "testing.iconFailed.retired"?: _1 | _93;
+  "testing.iconFailed.retired"?: _1 | _96;
   /**
    * Color for the 'passed' icon in the test explorer.
    */
-  "testing.iconPassed"?: _1 | _91;
+  "testing.iconPassed"?: _1 | _95;
   /**
    * Retired color for the 'passed' icon in the test explorer.
    */
@@ -3336,19 +3472,19 @@ export interface WorkbenchColors {
   /**
    * Color for the 'Skipped' icon in the test explorer.
    */
-  "testing.iconSkipped"?: _1 | _90;
+  "testing.iconSkipped"?: _1 | _94;
   /**
    * Retired color for the 'Skipped' icon in the test explorer.
    */
-  "testing.iconSkipped.retired"?: _1 | _94;
+  "testing.iconSkipped.retired"?: _1 | _97;
   /**
    * Color for the 'Unset' icon in the test explorer.
    */
-  "testing.iconUnset"?: _1 | _90;
+  "testing.iconUnset"?: _1 | _94;
   /**
    * Retired color for the 'Unset' icon in the test explorer.
    */
-  "testing.iconUnset.retired"?: _1 | _94;
+  "testing.iconUnset.retired"?: _1 | _97;
   /**
    * Background color of test error messages shown inline in the editor.
    */
@@ -3392,11 +3528,11 @@ export interface WorkbenchColors {
   /**
    * Color for 'run' icons in the editor.
    */
-  "testing.runAction"?: _1 | _91;
+  "testing.runAction"?: _1 | _95;
   /**
    * Background color of text that was not covered.
    */
-  "testing.uncoveredBackground"?: _1 | string;
+  "testing.uncoveredBackground"?: _1 | _70;
   /**
    * Border color of text that was not covered.
    */
@@ -3444,7 +3580,7 @@ export interface WorkbenchColors {
   /**
    * Title bar background when the window is active.
    */
-  "titleBar.activeBackground"?: _1 | _37;
+  "titleBar.activeBackground"?: _1 | _36;
   /**
    * Title bar foreground when the window is active.
    */
@@ -3468,7 +3604,7 @@ export interface WorkbenchColors {
   /**
    * Toolbar background when hovering over actions using the mouse
    */
-  "toolbar.hoverBackground"?: _1 | _40;
+  "toolbar.hoverBackground"?: _1 | _39;
   /**
    * Toolbar outline when hovering over actions using the mouse
    */
@@ -3480,7 +3616,7 @@ export interface WorkbenchColors {
   /**
    * Tree stroke color for the indentation guides.
    */
-  "tree.indentGuidesStroke"?: _1 | string;
+  "tree.indentGuidesStroke"?: _1 | _59;
   /**
    * Table border color between columns.
    */
@@ -3488,7 +3624,7 @@ export interface WorkbenchColors {
   /**
    * Background color for odd table rows.
    */
-  "tree.tableOddRowsBackground"?: _1 | _61;
+  "tree.tableOddRowsBackground"?: _1 | _60;
   /**
    * Background color for the embedded editors on the Interactive Playground.
    */
@@ -3504,7 +3640,7 @@ export interface WorkbenchColors {
   /**
    * Foreground color for the Welcome page progress bars.
    */
-  "welcomePage.progress.background"?: _1 | _39;
+  "welcomePage.progress.background"?: _1 | _38;
   /**
    * Background color for the Welcome page progress bars.
    */
@@ -3516,7 +3652,7 @@ export interface WorkbenchColors {
   /**
    * Border color for the tiles on the Welcome page.
    */
-  "welcomePage.tileBorder"?: _1 | _63;
+  "welcomePage.tileBorder"?: _1 | _92;
   /**
    * Hover background color for the tiles on the Welcome.
    */
@@ -3524,17 +3660,17 @@ export interface WorkbenchColors {
   /**
    * Border color of widgets such as find/replace inside the editor.
    */
-  "widget.border"?: _1 | _39;
+  "widget.border"?: _1 | _38;
   /**
    * Shadow color of widgets such as find/replace inside the editor.
    */
-  "widget.shadow"?: _1 | _38;
+  "widget.shadow"?: _1 | _37;
   /**
-   * The color used for the border of the window when it is active. Only supported in the macOS and Linux desktop client when using the custom title bar.
+   * The color used for the border of the window when it is active on macOS or Linux. Requires custom title bar style and custom or hidden window controls on Linux.
    */
   "window.activeBorder"?: _1 | _6;
   /**
-   * The color used for the border of the window when it is inactive. Only supported in the macOS and Linux desktop client when using the custom title bar.
+   * The color used for the border of the window when it is inactive on macOS or Linux. Requires custom title bar style and custom or hidden window controls on Linux.
    */
   "window.inactiveBorder"?: _1 | _6;
 }

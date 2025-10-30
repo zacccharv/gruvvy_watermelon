@@ -5,11 +5,12 @@ import { compile, JSONSchema } from "json-schema-to-typescript";
 
 // v1.98.2
 const vscodeSchemasRoot =
-  "https://raw.githubusercontent.com/ota-meshi/extract-vscode-schemas/bd18db29edb183a0d8b0b8250b22dbd4428a0da8/resources/vscode/schemas/";
+  "https://raw.githubusercontent.com/ota-meshi/extract-vscode-schemas/main/resources/vscode/schemas/";
 
 const bannerComment = `/**
  * This file was automatically generated.
- * DO NOT MODIFY IT BY HAND.
+ * DO NOT MODIFY IT BY HAND
+ * OH YES IT WAS!.
  * Instead, run \`pnpm --filter @catppuccin/vsc-typegen typegen:update\` to regenerate this file.
  */`;
 
@@ -32,6 +33,12 @@ const mappings = [
   //   fname: "textmate-colors.d.ts",
   //   kind: "jsonschema",
   // },
+  {
+    schema: __dirname + "schemas/textmate-colors.json",
+    name: "TextmateColors",
+    fname: "textmate-colors.d.ts",
+    kind: "jsonschema",
+  },
   {
     schema: vscodeSchemasRoot + "workbench-colors.json",
     name: "WorkbenchColors",

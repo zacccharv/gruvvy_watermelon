@@ -24,6 +24,7 @@ export default defineConfig([
       "unicorn/prefer-module": "off",
       "unicorn/prefer-top-level-await": "off",
       "unicorn/prefer-string-raw": "off",
+      "linebreak-style": ["error", "windows"],
     },
     extends: [
       js.configs.recommended,

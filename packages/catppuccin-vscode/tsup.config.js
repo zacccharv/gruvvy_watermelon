@@ -1,6 +1,7 @@
 import { defineConfig } from "tsup";
 import { mkdir, readdir, unlink, writeFile } from "node:fs/promises";
 import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 
 import mocha from "catppuccin-vsc/themes/mocha.json" with { type: "json" };
 import macchiato from "catppuccin-vsc/themes/macchiato.json" with { type: "json" };
@@ -17,7 +18,7 @@ export default defineConfig({
   target: "node16",
   async onSuccess() {
     // create the dir
-    const root = new URL("themes", import.meta.url).pathname;
+    const root = fileURLToPath(new URL("themes", import.meta.url));
     await mkdir(root, { recursive: true });
     // empty the dir
     const files = await readdir(root);
