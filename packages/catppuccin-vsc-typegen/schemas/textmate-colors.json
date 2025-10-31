@@ -42,7 +42,7 @@
         ]
       },
       "settings": {
-        "$ref": "#/$defs/_0"
+        "$ref": "#/$defs/Settings"
       }
     },
     "required": ["settings"],

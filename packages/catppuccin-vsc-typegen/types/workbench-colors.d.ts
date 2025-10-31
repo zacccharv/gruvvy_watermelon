@@ -5,9 +5,6 @@
  * Instead, run `pnpm --filter @catppuccin/vsc-typegen typegen:update` to regenerate this file.
  */
 
-/**
- * Use the default color.
- */
 export type _1 = "default";
 export type _6 = string;
 export type _5 = string;
